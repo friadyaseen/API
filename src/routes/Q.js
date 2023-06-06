@@ -2,10 +2,6 @@ const { Router } = require('express')
 const Q = require("../database/schemas/Qschema")
 const router = Router();
 
-router.get("/", (req, res) => {
-    res.send("hi");
-})
-
 router.post("/", async (req, res) => {
     const { question, choices } = req.body;
     const newQ = await Q.create({ question, choices });
@@ -32,6 +28,10 @@ router.post("/up/:id", async (req, res) => {
     }
 
     res.sendStatus(200);
+})
+
+router.get("/", (req, res) => {
+    res.send("hello worlds");
 })
 
 module.exports = router;
