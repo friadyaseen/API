@@ -31,7 +31,7 @@ router.post("/up/:id", async (req, res) => {
 })
 
 router.get("/", (req, res) => {
-    res.send("hello worlds");
+    res.send("Hello worlds");
 })
 
 module.exports = router;
