@@ -1,18 +1,17 @@
 const express = require('express')
 const app = express()
-const Qroute = require("./routes/Q.js")
+const Croute = require("./routes/C.js")
 const port = 3000
 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-require("./database")
 
-app.use('/Q', Qroute);
+app.use('/C', Croute);
 
-app.get("/", (req, res) => {
-    res.send("Hello, World")
+app.get("/yessss", (req, res) => {
+    res.send("Hello world")
 })
 
 app.listen(port, () => {

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node",
-    "dev": "nodemon ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon --ignore ./src/data/data.json ./src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,6 @@
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "module": "^1.0.0",
-    "mongoose": "^7.2.2",
     "nodemon": "^2.0.22"
   }
 }
