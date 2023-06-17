@@ -1,19 +1,40 @@
 {
-  "chat": {
-    "id": 1,
-    "user_id": 1010,
-    "user2_id": 2020,
-    "M": [
-      {
-        "id": 1,
-        "user": 1,
-        "type": 1,
-        "m": 658486,
-        "R_id": "",
-        "Re_id": "",
-        "Re": "",
-        "time": ""
-      }
-    ]
-  }
+  "chat": [
+    {
+      "user_id": 1010,
+      "user2_id": 2020,
+      "Mes": [
+        {
+          "id": 1,
+          "user": 1,
+          "type": 1,
+          "m": 658486,
+          "R_id": "",
+          "Re_id": "",
+          "Re": "",
+          "time": ""
+        },
+        {
+          "id": 2,
+          "user": 1,
+          "type": 1,
+          "m": "oiefihfeugdjsjfh",
+          "R_id": "",
+          "Re_id": "",
+          "Re": "",
+          "time": ""
+        },
+        {
+          "id": 3,
+          "user": 1,
+          "type": 1,
+          "m": "oagdsagfasgsagfasdsasagsagdasdgdasgddjfh",
+          "R_id": "",
+          "Re_id": "",
+          "Re": "",
+          "time": ""
+        }
+      ]
+    }
+  ]
 }
